@@ -10,11 +10,11 @@
     $gp         = $gaji + $trans;
 
     //kondisi
-    if ($gp < 10000000){
+    if ($gp >= 10000000){
         $ttl = $gp - ($gp*0.2);
         $pjk = "20%";
     }
-    else if ($gp < 5000000){
+    else if ($gp >= 5000000){
         $ttl = $gp - ($gp*0.1);
         $pjk = "10%";
     }
