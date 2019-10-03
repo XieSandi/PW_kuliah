@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <info>
 	<infoitem key="UD_apalah" value="name:c;datatype:string,name:d;datatype:blob" />
+	<infoitem key="UD_Recordset1" value="name:npm;datatype:int,name:nama;datatype:string,name:jurusan;datatype:string,name:kelas;datatype:string" />
 </info>
