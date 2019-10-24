@@ -27,8 +27,8 @@
 				<td><?php echo $d['jurusan']; ?></td>
 				<td><?php echo $d['kelas']; ?></td>
 				<td>
-					<a href="rubahdata.php?id=<?php echo $d['npm']; ?>">EDIT</a>
-					<a href="hapus.php?id=<?php echo $d['npm']; ?>">HAPUS</a>
+					<a href="rubahdata.php?npm=<?php echo $d['npm']; ?>">EDIT</a>
+					<a href="hapus.php?npm=<?php echo $d['npm']; ?>">HAPUS</a>
 				</td>
 			</tr>
 			<?php 

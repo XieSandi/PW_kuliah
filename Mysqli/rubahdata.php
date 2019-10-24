@@ -25,7 +25,7 @@
 			<tr>
 				<td>NPM</td>
 				<td>:</td>
-				<td><input type="Number" name="npm" value="<?php echo $data["npm"];?>"></td>
+				<td><input type="text" value="<?php echo $data['npm']; ?>" class="field left" placeholder="<?php echo $data['npm']; ?>" readonly></td>
 			</tr>
 			<tr>
 				<td>Nama Lengkap</td>
